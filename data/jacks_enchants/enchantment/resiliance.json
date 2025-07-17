@@ -1,12 +1,6 @@
 {
   "description": "Resiliance",
-  "exclusive_set": [
-    "minecraft:protection",
-    "minecraft:projectile_protection",
-    "minecraft:fire_protection",
-    "minecraft:blast_protection",
-    "jacks_enchants:halfling"
-  ],
+  "exclusive_set": "#minecraft:exclusive_set/armor",
   "supported_items": "#minecraft:enchantable/armor",
   "weight": 1,
   "max_level": 5,
