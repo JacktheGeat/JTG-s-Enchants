@@ -27,5 +27,5 @@ Some select enchantments also get unique particle effects as well. Frost walker 
  * On Ice: Granted when you use Arctic Chill on a creature in water, turning where it stands into frosted ice.
 
 ## Balancing:
- * Impaling: Now increases damage against drowned.
+ * Impaling: Added drowned to the list of entities targeted by the damage increase, but also will deal increased damage to any entity so long as it is in water or in the open rain.
  * Sharpness: Now can be enchanted on tridents.
