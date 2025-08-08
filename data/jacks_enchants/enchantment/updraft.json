@@ -9,13 +9,13 @@
           "effects": [
             {
               "type": "explode",
-              "radius": 0.1,
+              "radius": 0.01,
               "offset": [
                 0,
                 0,
                 0
               ],
-              "knockback_multiplier": 1,
+              "knockback_multiplier": 2,
               "block_interaction": "none",
               "small_particle": {
                 "type": "cloud"
@@ -24,7 +24,7 @@
                 "type": "minecraft:firework"
               },
               "sound": {
-                "sound_id": "minecraft:entity.firework_rocket.blast"
+                "sound_id": "minecraft:entity.firework_rocket.launch"
               }
             },
             {
@@ -44,6 +44,24 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
+                "equipment": {
+                  "chest": {
+                    "items": "minecraft:elytra",
+                    "predicates": {
+                      "minecraft:damage": {
+                        "durability": {
+                          "min": 12
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
                 "type_specific": {
                   "type": "player",
                   "input": {
@@ -56,7 +74,7 @@
                 },
                 "movement": {
                   "y": {
-                    "max": 0
+                    "max": -1
                   }
                 }
               }
