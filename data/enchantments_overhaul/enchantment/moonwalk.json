@@ -21,7 +21,7 @@
     "minecraft:attributes": [
       {
         "attribute": "minecraft:gravity",
-        "id": "jacks_enchants:moonwalking_grav",
+        "id": "enchantments_overhaul:moonwalking_grav",
         "amount": {
           "type": "minecraft:linear",
           "base": -0.2,
@@ -31,7 +31,7 @@
       },
       {
         "attribute": "minecraft:fall_damage_multiplier",
-        "id": "jacks_enchants:moonwalking_fall_mult",
+        "id": "enchantments_overhaul:moonwalking_fall_mult",
         "amount": {
           "type": "minecraft:linear",
           "base": -0.05,

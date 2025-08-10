@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "jacks_enchants:trident"
+        "recipe": "enchantments_overhaul:trident"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "jacks_enchants:trident"
+      "enchantments_overhaul:trident"
     ]
   }
 }

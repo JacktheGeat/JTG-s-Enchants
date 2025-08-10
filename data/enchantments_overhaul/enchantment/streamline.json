@@ -85,7 +85,7 @@
     "minecraft:attributes": [
       {
         "attribute": "minecraft:attack_speed",
-        "id": "jacks_enchants:streamline_attack_speed",
+        "id": "enchantments_overhaul:streamline_attack_speed",
         "amount": {
           "type": "minecraft:clamped",
           "value": {

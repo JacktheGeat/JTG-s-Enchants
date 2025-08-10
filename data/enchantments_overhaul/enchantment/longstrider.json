@@ -20,7 +20,7 @@
     "minecraft:attributes": [
       {
         "attribute": "minecraft:step_height",
-        "id": "jacks_enchants:longstrider_step",
+        "id": "enchantments_overhaul:longstrider_step",
         "amount": 0.5,
         "operation": "add_value"
       }

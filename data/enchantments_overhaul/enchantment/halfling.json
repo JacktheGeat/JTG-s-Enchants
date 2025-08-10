@@ -2,7 +2,7 @@
   "description": "Halfling",
   "exclusive_set": [
     "minecraft:protection",
-    "jacks_enchants:resiliance"
+    "enchantments_overhaul:resiliance"
   ],
   "supported_items": "#minecraft:enchantable/chest_armor",
   "weight": 1,
@@ -23,7 +23,7 @@
     "minecraft:attributes": [
       {
         "attribute": "minecraft:scale",
-        "id": "jacks_enchants:halfling_scale",
+        "id": "enchantments_overhaul:halfling_scale",
         "amount": {
           "type": "minecraft:linear",
           "base": -0.15,
@@ -33,7 +33,7 @@
       },
       {
         "attribute": "minecraft:max_health",
-        "id": "jacks_enchants:halfling_health",
+        "id": "enchantments_overhaul:halfling_health",
         "amount": {
           "type": "minecraft:linear",
           "base": -0.05,

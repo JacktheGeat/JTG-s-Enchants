@@ -1,20 +1,20 @@
 {
-  "description": "Implosive Arrows",
+  "description": "Explosive Arrows",
   "exclusive_set": [
     "minecraft:piercing",
-    "jacks_enchants:explosive_arrows"
+    "enchantments_overhaul:implosive_arrows"
   ],
   "supported_items": "#minecraft:enchantable/crossbow",
   "primary_items": "#minecraft:enchantable/crossbow",
-  "weight": 1,
-  "max_level": 2,
+  "weight": 2,
+  "max_level": 3,
   "min_cost": {
-    "base": 16,
-    "per_level_above_first": 5
+    "base": 12,
+    "per_level_above_first": 9
   },
   "max_cost": {
     "base": 20,
-    "per_level_above_first": 8
+    "per_level_above_first": 12
   },
   "anvil_cost": 4,
   "slots": [
@@ -24,29 +24,29 @@
     "minecraft:post_attack": [
       {
         "effect": {
-          "type": "explode",
+          "type": "minecraft:explode",
           "attribute_to_user": true,
-          "knockback_multiplier": -2,
-          "damage_type": "fireworks",
+          "knockback_multiplier": 0.4,
+          "damage_type": "explosion",
           "offset": [
             0,
-            0.5,
+            0,
             0
           ],
           "radius": {
             "type": "minecraft:linear",
-            "base": 3,
-            "per_level_above_first": 2
+            "base": 0.8,
+            "per_level_above_first": 0.5
           },
           "create_fire": false,
-          "block_interaction": "none",
+          "block_interaction": "tnt",
           "small_particle": {
-            "type": "minecraft:portal"
+            "type": "minecraft:explosion"
           },
           "large_particle": {
-            "type": "minecraft:portal"
+            "type": "minecraft:explosion"
           },
-          "sound": "minecraft:entity.enderman.teleport"
+          "sound": "minecraft:entity.generic.explode"
         },
         "enchanted": "attacker",
         "affected": "damaging_entity"

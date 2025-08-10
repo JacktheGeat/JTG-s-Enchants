@@ -16,7 +16,7 @@
                 "min": 20,
                 "max": 40
               },
-              "options": "jacks_enchants:moonwalk"
+              "options": "enchantments_overhaul:moonwalk"
             }
           ],
           "conditions": []

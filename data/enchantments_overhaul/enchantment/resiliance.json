@@ -20,7 +20,7 @@
     "minecraft:attributes": [
       {
         "attribute": "minecraft:max_health",
-        "id": "jacks_enchants:halfling_health",
+        "id": "enchantments_overhaul:halfling_health",
         "amount": {
           "type": "minecraft:linear",
           "base": 2,
