@@ -41,18 +41,12 @@
           "condition": "all_of",
           "terms": [
             {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
+              "condition": "minecraft:match_tool",
               "predicate": {
-                "equipment": {
-                  "chest": {
-                    "items": "minecraft:elytra",
-                    "predicates": {
-                      "minecraft:damage": {
-                        "durability": {
-                          "min": 12
-                        }
-                      }
+                "predicates": {
+                  "minecraft:damage": {
+                    "durability": {
+                      "min": 20
                     }
                   }
                 }
