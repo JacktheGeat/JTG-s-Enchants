@@ -15,7 +15,7 @@
                 0,
                 0
               ],
-              "knockback_multiplier": 2,
+              "knockback_multiplier": 1,
               "block_interaction": "none",
               "small_particle": {
                 "type": "cloud"
@@ -41,18 +41,6 @@
           "condition": "all_of",
           "terms": [
             {
-              "condition": "minecraft:match_tool",
-              "predicate": {
-                "predicates": {
-                  "minecraft:damage": {
-                    "durability": {
-                      "min": 20
-                    }
-                  }
-                }
-              }
-            },
-            {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
@@ -66,9 +54,20 @@
                   "is_on_ground": false,
                   "is_flying": true
                 },
+                "equipment": {
+                  "chest": {
+                    "predicates": {
+                      "minecraft:damage": {
+                        "durability": {
+                          "min": 12
+                        }
+                      }
+                    }
+                  }
+                },
                 "movement": {
-                  "y": {
-                    "max": -1
+                  "vertical_speed": {
+                    "max": 2
                   }
                 }
               }
